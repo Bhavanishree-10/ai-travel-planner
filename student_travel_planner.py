@@ -2,7 +2,7 @@ import os
 import json
 import time
 import streamlit as st
-from google import genai
+import google.genai as genai
 from google.genai import types
 
 # --- Configuration and Setup ---
@@ -205,4 +205,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
